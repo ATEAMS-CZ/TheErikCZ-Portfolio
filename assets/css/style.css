@@ -1,0 +1,45 @@
+.closer {
+    padding: 1rem;
+    margin: -1rem -1rem -1rem auto;
+    color: #ffc9c9;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 0.4s;
+    float: right;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+}
+
+
+.closer:hover {
+    color: #ff9191;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.modal-content {
+    background-color: rgb(14,14,14);
+    border-radius: 14px;
+}
+
+.miniatura {
+    margin-top: 15px;
+    border-radius: 10px
+}
+
+
+.title-building {
+    margin-bottom: 25px;
+    color: rgb(224,231,238) !important;
+}
+
+
+.header-buildings {
+    margin-bottom: 25px;
+    color: rgb(224,231,238);
+}
+
+header {
+    background: linear-gradient(rgba(30,30,30,0.24) 0%, rgb(0,0,0)), url('https://cdn.pixabay.com/photo/2015/03/01/19/32/minecraft-655158_960_720.jpg') top / cover no-repeat;
+}
