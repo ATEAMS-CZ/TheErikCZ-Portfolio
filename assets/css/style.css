@@ -28,12 +28,16 @@
     border-radius: 10px
 }
 
-
 .title-building {
-    margin-bottom: 26px;
+    margin-bottom: 25px;
     color: rgb(224,231,238) !important;
 }
 
+.title-building:hover {
+    margin-bottom: 25px;
+    color: #84CAE0 !important;
+    transition: all 0.4s;
+}
 
 .header-buildings {
     margin-bottom: 25px;
@@ -41,7 +45,41 @@
 }
 
 header {
-    background: linear-gradient(rgba(0,0,0,0.24) 0%, rgb(4,14,16)), url('https://cdn.discordapp.com/attachments/594484981930262555/801919225936740362/2020-11-23_17.29.22.png') top / cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.24) 0%, rgb(4,14,16)), url('https://cdn.discordapp.com/attachments/594484981930262555/802120117936717834/render-final.png') top / cover no-repeat;
+}
+
+.designer {
+    background-color: rgb(52,59,61);
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    color: #48C4EA;
+    transition: all 0.5s;
+}
+
+.designer:hover {
+    color: #0189B5;
+    transition: all 0.5s;
+}
+.media-ico {
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 773px) {
+    .floating-logo-right img {
+        height: 65% !important;
+        width: 65% !important;
+    }
+}
+
+.mediar {
+    color: #0189B5;
+    transition: all 0.5s;
+    font-size:14px
+}
+
+.mediar:hover {
+    color: #48C4EA;
+    transition: all 0.5s;
 }
 
 body {
