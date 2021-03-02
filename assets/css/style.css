@@ -59,6 +59,11 @@ html {
     cursor: pointer;
 }
 
+.bbuilds {
+    border-radius: 100px;
+    cursor: pointer;
+}
+
 .header-buildings {
     margin-bottom: 5px;
     color: rgb(224,231,238);
